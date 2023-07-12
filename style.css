@@ -18,6 +18,7 @@
   background-color: #222;
   color: white;
   transition: 0.5s;
+  cursor: pointer;
 }
 /* banner styles */
 .header {
@@ -116,4 +117,32 @@
 .plans-info p {
   font-weight: bold;
   color: gray;
+}
+
+.bottom-banner {
+  margin: 130px 0px;
+  height: 250px;
+  background-image: linear-gradient(
+      rgba(61, 64, 214, 0.9),
+      rgba(77, 98, 214, 0.253)
+    ),
+    url("./images/watch.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bottom-banner-info {
+  width: 400px;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.bottom-banner-info h2 {
+  color: white;
+  font-size: 35px;
+  margin-bottom: 15px;
 }
