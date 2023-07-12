@@ -86,3 +86,34 @@
   width: 15px;
   margin-right: 2px;
 }
+
+/* plan section style */
+
+.plans {
+  margin: 0 200px;
+}
+
+.plan-title {
+  font-size: 35px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 80px;
+}
+
+.plans-info {
+  text-align: center;
+}
+.plans-info h3 {
+  font-size: 25px;
+  margin: 10px 0px;
+}
+
+.plans-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.plans-info p {
+  font-weight: bold;
+  color: gray;
+}
