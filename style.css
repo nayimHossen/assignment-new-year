@@ -6,11 +6,18 @@
 
 .btn-primary {
   background-color: white;
-  color: blue;
+  color: rgb(40, 40, 255);
   border: none;
   padding: 20px 30px;
+  font-size: 16px;
   font-weight: bold;
   border-radius: 5px;
+}
+
+.btn-primary:hover {
+  background-color: #222;
+  color: white;
+  transition: 0.5s;
 }
 /* banner styles */
 .header {
@@ -40,4 +47,42 @@
   line-height: 20px;
   font-size: small;
   color: white;
+}
+
+/* failures-section */
+
+.failures-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 120px 0px;
+  gap: 70px;
+}
+
+.failures-section img {
+  width: 450px;
+}
+
+.failures-info {
+  margin-top: 130px;
+  width: 350px;
+}
+.failures-title {
+  font-size: 40px;
+}
+
+.failures-description {
+  margin: 20px 0px;
+  font-size: small;
+  line-height: 22px;
+}
+
+.failures-info li {
+  list-style: none;
+  font-size: small;
+  line-height: 30px;
+}
+.failures-info img {
+  width: 15px;
+  margin-right: 2px;
 }
