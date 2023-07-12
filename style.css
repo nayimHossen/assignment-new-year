@@ -205,3 +205,69 @@
   transition: 0.5s;
   cursor: pointer;
 }
+
+/* one year learning style */
+
+.plane-container {
+  margin: 130px 200px;
+  display: flex;
+  gap: 25px;
+}
+
+.donate-card {
+  margin-top: 40px;
+  padding: 60px 30px;
+  background-color: rgb(236, 246, 252);
+  border-radius: 5px;
+}
+
+.donate-card h3 {
+  margin: 15px 0px;
+  font-size: 24px;
+}
+
+.donate-card p {
+  color: #747474;
+}
+
+.donate-card img {
+  width: 40px;
+}
+
+.one {
+  background-color: rgb(255, 226, 221);
+}
+
+.two {
+  background-color: rgb(255, 255, 210);
+}
+
+.donate-album-section {
+  margin-top: 100px;
+}
+
+.donate-album {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.donate-img {
+  width: 500px;
+  border-radius: 5px;
+}
+
+.donate-info h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.donate-info p {
+  margin-bottom: 20px;
+  color: #7e7d7d;
+}
+
+.donate-two {
+  margin-top: 100px;
+}
